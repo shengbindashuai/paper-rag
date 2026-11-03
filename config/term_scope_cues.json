@@ -1,0 +1,11 @@
+{
+  "reinforcement_learning": ["强化学习", "策略优化", "策略梯度", "奖励函数", "policy gradient", "reinforcement learning"],
+  "machine_learning": ["机器学习", "模型训练", "梯度", "神经网络", "machine learning", "neural network"],
+  "natural_language_processing": ["自然语言", "检索增强", "语言模型", "文本生成", "language model", "text generation"],
+  "optimization": ["优化算法", "梯度", "收敛", "optimizer", "convergence"],
+  "computer_vision": ["计算机视觉", "图像识别", "目标检测", "computer vision"],
+  "medicine": ["医学", "患者", "临床", "clinical", "patient"],
+  "statistics": ["统计学", "统计推断", "statistical inference"],
+  "robotics": ["机器人", "robotics"],
+  "physics": ["物理学", "physics"]
+}

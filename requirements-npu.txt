@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional Intel NPU backend; the device driver must be installed separately.
+openvino==2026.4.1

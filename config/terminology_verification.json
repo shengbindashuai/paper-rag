@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "wire_protocol": "compact_v3",
+  "provider_config": "config/retrieval.json",
+  "batch_size": 16,
+  "concurrency": 6,
+  "evidence_per_pair": 2,
+  "context_chars": 900,
+  "max_request_bytes": 90000,
+  "max_tokens": 4096,
+  "timeout_seconds": 120,
+  "attempts": 3,
+  "max_pair_rounds": 3,
+  "auto_publish": true
+}

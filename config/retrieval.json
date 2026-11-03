@@ -1,0 +1,39 @@
+{
+  "index_dir": "RAG/library",
+  "index_kind": "library",
+  "embedding_dir": "RAG/models/Qwen3-Embedding-0.6B",
+  "reranker_dir": "RAG/models/Qwen3-Reranker-0.6B",
+  "models_dir": "RAG/models",
+  "cache_dir": "RAG/model_cache",
+  "instruction": "Given a scientific question, retrieve passages that answer the question.",
+  "npu_lengths": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "gpu_max_tokens": 32768,
+  "reranker_max_tokens": 32768,
+  "reranker_batch_size": 2,
+  "max_chunks_per_document": 8,
+  "keyword_enabled": true,
+  "rrf_k": 60,
+  "rerank_candidate_k": 40,
+  "mmr_enabled": true,
+  "mmr_lambda": 0.7,
+  "term_enrichment_enabled": true,
+  "terminology_pointer": "RAG/terminology/auto/current.json",
+  "term_scope_cues_file": "config/term_scope_cues.json",
+  "term_weight": 0.15,
+  "term_max_keywords": 12,
+  "term_max_expansions": 8,
+  "gate_policy_file": "config/quality_gate_policy.json",
+  "gate_rubric_file": "config/quality_gate_rubric.md",
+  "deepseek": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "timeout_seconds": 60,
+    "max_tokens": 4096
+  }
+}

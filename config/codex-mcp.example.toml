@@ -1,0 +1,7 @@
+# 将此段合并到用户 ~/.codex/config.toml，或受信任项目的 .codex/config.toml。
+# 前提：先启动本地知识库服务。
+[mcp_servers.local_knowledge]
+url = "http://127.0.0.1:8765/mcp"
+enabled = true
+startup_timeout_sec = 30
+tool_timeout_sec = 300

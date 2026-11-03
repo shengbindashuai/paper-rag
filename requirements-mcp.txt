@@ -1,0 +1,2 @@
+# Compatibility entry point. MCP is included in the unified requirements.
+-r requirements.txt

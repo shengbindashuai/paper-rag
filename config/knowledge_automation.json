@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "watch_directories": [
+    "RAG/inbox",
+    "RAG/PDF"
+  ],
+  "watch_mode": "filesystem_events",
+  "settle_seconds": 20,
+  "terminology_debounce_seconds": 30,
+  "terminology_directory": "RAG/terminology/auto",
+  "initial_decisions": null
+}

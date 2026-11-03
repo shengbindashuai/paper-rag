@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "batch_size": 16,
+  "max_candidates": 30,
+  "max_rounds": 4,
+  "max_api_attempts": 6,
+  "retries_per_round": 1,
+  "total_timeout_seconds": 120.0,
+  "retry_backoff_seconds": 0.5,
+  "max_request_bytes": 100000,
+  "max_total_request_bytes": 300000,
+  "max_total_output_tokens": 24576,
+  "allow_partial_answers": true
+}
